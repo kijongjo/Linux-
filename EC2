@@ -15,9 +15,9 @@ EC2란?
 AWS의 EC2를 이용해 LINUX 사용하기 
 설치 :
 ec2클릭 -> 빠른시작에서  SUSE Linux Enterprise Server 15 SP1 (HVM), SSD Volume Type - ami-0e29958d5b090434f 누르고 
-프리티어 누르기 ->키설정: 키가 있어야만 로그인이 된다.(aws를 쓰니까 우리는 aws로 이름을 지음)->aws.pem폴더가 생성 
-->puttygen 눌러서 key 등록하면 aws.ppk파일이 생성 putty 프로그램 실행시켜서 connection ssh auth에 키불러오고 
-session에서 loggin에 aws사이트에 내게 주어지는 IPV4 퍼블릭 IP를 등록해서 키게 되면 실행이된다.
+프리티어 누르기(연습하기 위함 여러가지가 존재한다.) ->키설정: 키가 있어야만 로그인이 된다.(key명을 지어 준다.)->키명.pem폴더가 생성 
+->puttygen 눌러서 생성된 key(.pem 파일)를 등록하면 파이명.ppk파일이 생성된다. -> putty 프로그램 실행시켜서 connection ssh auth에 키불러오고, 
+session에 있는 loggin에 aws 인스턴스에서 내게 주어지는 IPV4 퍼블릭 IP를 등록해서 실행시키면 Linux를 사용하기 위한 첫번째 환경이 완료된다.
 
 
 ------------------------------------------------------------------------------------------------------------------------
