@@ -38,7 +38,7 @@ ex)
 
 window prefereneces ssh 목록에서 pem 등록하고 
 
-ssh terminal에서 terminal 실행후 id를 ec2-user를 쳐준다
+ssh terminal에서 terminal 실행후 id를 ec2-user를 입력한다.
 
 3.sftp(ssh)를 이용해서 window에서  aws로 보낸다 
 
