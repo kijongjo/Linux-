@@ -22,6 +22,14 @@ session에 있는 loggin에 aws 인스턴스에서 내게 주어지는 IPV4 퍼�
 
 ------------------------------------------------------------------------------------------------------------------------
 java와 연결하기 
+1.Remote System Explorer 설치 및 설정
+2.Help -> Eclipse MarketPlace
+3.remote system 검색 후 Remote System Explorer 설치
+4.File -> New -> Other, Remote System Explorer 아래 Connection 클릭
+원하는 연결을 선택
+5.Host Name에 접속한 IP or 도메인을 입력
+6.아이디, 비밀번호 입력 후 접속!
+7.사용하기!
 ex)
 환경설정:
 1.2018버전 help eclipse marketplace ssh 다운로드 
