@@ -81,7 +81,7 @@ export PATH=$PATH:$JAVA_HOME/bin
 export CLASSPATH=.:$JAVA_HOME/lib/tools.jar
 export CATALINA_HOME=/usr/local/tomcat9             
 9.
-cd tomcat9.bin   
+cd tomcat9/bin   
 10.
 ./startup.sh   -톰캣 실행- 
 11.
