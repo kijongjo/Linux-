@@ -88,9 +88,15 @@ pUTTY에서 cd $JAVA_HOME를 통해 제대로 설정되었는지 보고
 cd $CATALINA_HOME도 확인한다 
 잘되었다면 ECLIPSE를 재부팅한다.
 
+10-1.
+war 파일을 home에 넣는다. 
+/usr/local/tomcat9/webapps>에서 mv ~/WEBCON~1.war .를 실행한다. 
+bin에서 startup해준후 다시 webapps로 나온다
 11.
 aws ->보안 22번포트 인바운드 지정 위치무관 
-         8080포트 추가 인바운드지정 위치무관 
+         8080포트 추가 인바운드지정 위치무관 해준다.
+12. 
+ip주소 +프로젝트 주소 
 
 
 
