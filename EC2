@@ -59,6 +59,7 @@ tomcat 사이트에 tar.gz 파일의 링크 주소 를 복사
 eclipse 명령창에 sudo wget 주소입력 -다운로드 완료-
 3. 
 cd usr/local로 변경 후에 
+sudo cp~/apa 파일 ./ 
 sudo cp ~/jdk 파일 ./   -해당 파일을 local 폴더에 복사-
 4.
 sudo tar xvfz 아파치 파일 
