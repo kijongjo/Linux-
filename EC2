@@ -20,6 +20,31 @@ ec2클릭 -> 빠른시작에서  SUSE Linux Enterprise Server 15 SP1 (HVM), SSD 
 session에서 loggin에 aws사이트에 내게 주어지는 IPV4 퍼블릭 IP를 등록해서 키게 되면 실행이된다.
 
 
+------------------------------------------------------------------------------------------------------------------------
+java와 연결하기 
+ex)
+환경설정:
+1.2018버전 help eclipse marketplace ssh 다운로드 
+
+2.remote system에서 오른쪽 클릭 connection 하기 
+
+window prefereneces ssh 목록에서 pem 등록하고 
+
+ssh terminal에서 terminal 실행후 id를 ec2-user를 쳐준다
+
+3.sftp(ssh)를 이용해서 window에서  aws로 보낸다 
+
+                         suse linux에서 
+                                   
+                           jre  runtime 환경이 필요 하다 
+                              jdk가 설치 되어 있다면 jre도 당연 환경이 조성되는 것이니  가상 머신에서 jdk를 받아서 실행하게 된다.
+
+
+4.jdk를 오라클에서 다운받아 가상머신에 설치해주자
+이클립스 리모트 시스템즈에서 sftp files 클릭 my home 은 ec2-user의 홈이다. 
+거기다가 jdk의 tar.gz 파일을 drag and drop 해준다. 알집 채로 넣어준다.
+
+
 
 
 
