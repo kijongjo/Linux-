@@ -51,7 +51,41 @@ ssh terminal에서 terminal 실행후 id를 ec2-user를 입력한다.
 4.jdk를 오라클에서 다운받아 가상머신에 설치해주자
 이클립스 리모트 시스템즈에서 sftp files 클릭 my home 은 ec2-user의 홈이다. 
 거기다가 jdk의 tar.gz 파일을 drag and drop 해준다. 알집 채로 넣어준다.
-
+----------------------------------------------------------------------------------------------------------------------------------
+java tomcat 가상 서버에 설치하기 
+1.
+tomcat 사이트에 tar.gz 파일의 링크 주소 를 복사 
+2.
+eclipse 명령창에 sudo wget 주소입력 -다운로드 완료-
+3. 
+cd usr/local로 변경 후에 
+sudo cp ~/jdk 파일 ./   -해당 파일을 local 폴더에 복사-
+4.
+sudo tar xvfz 아파치 파일 
+sudo tar xvfz jdk 파일   -해당 파일을 풀어준다.- 
+5.
+sudo rm -rf 아파치 알집 -알집 파일 삭제해준다-
+6.
+sudo mv 아파치 폴더를 tomcat9으로 
+sudo mv jdk를 jdk1.8로            -파일명 바꿈-
+7.
+sudo chown -R ec2-user tomcat9 -ec2-user를 톰캣권한 바꿔준다. - 
+8.
+환경변수 설정
+sudo vi /etc/profile에서 
+마지막 쪽 export쪽에 
+환경변수 설정
+export JAVA_HOME=/usr/local/jdk1.8
+export PATH=$PATH:$JAVA_HOME/bin
+export CLASSPATH=.:$JAVA_HOME/lib/tools.jar
+export CATALINA_HOME=/usr/local/tomcat9             
+9.
+cd tomcat9.bin   
+10.
+./startup.sh   -톰캣 실행- 
+11.
+aws ->보안 22번포트 인바운드 지정 위치무관 
+         8080포트 추가 인바운드지정 위치무관 
 
 
 
